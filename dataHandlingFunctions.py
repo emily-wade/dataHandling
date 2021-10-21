@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # imports
 import json
 import pandas as pd
@@ -11,10 +5,6 @@ from collections import defaultdict
 import re
 from inflection import camelize
 from flattenJson import flatten
-
-
-# In[2]:
-
 
 def geckoToJsonFormatter(filePath):
     """
@@ -42,10 +32,6 @@ def geckoToJsonFormatter(filePath):
     # return array of json objects
     return jsonData
 
-
-# In[8]:
-
-
 def jsonFlattener(filePath):
     """
     Purpose: reads and flattens JSON data (sample or production data from source team)
@@ -63,10 +49,6 @@ def jsonFlattener(filePath):
 
     # return array of json objects
     return jsonFlattened
-
-
-# In[4]:
-
 
 def createDataframe(jsonData):
     """
@@ -103,10 +85,6 @@ def createDataframe(jsonData):
     df = pd.DataFrame(dict([(k, pd.Series(v)) for k,v in dd.items()]))
     
     return df
-
-
-# In[5]:
-
 
 def getFieldNames(df):
     """
@@ -151,10 +129,6 @@ def getFieldNames(df):
 # this does not cater for fieldNames that have no delimiter and are all lower case
 # this will of course need to be checked manually by analyst
 
-
-# In[11]:
-
-
 def createTechSpec(filePathFrom, filePathTo):
     """
     Purpose: create tech spec with columns Source Field Name, Target Field Name, Source Data Type
@@ -179,25 +153,3 @@ def createTechSpec(filePathFrom, filePathTo):
     techSpec.to_excel(filePathTo, index=False)
     
     return techSpec
-
-
-# In[13]:
-
-
-# TO RUN: EXAMPLE
-# SAMPLE DATA TO TECH SPEC IN EXCEL (1 ROW PER JSON MSG)
-filePathFrom = r"C:\Users\EWD05\OneDrive - Sky\Documents\Tickets\Braze Push Notifications\Braze-Push-Notifications.txt"
-filePathTo = 'BrazePushNotifications-TechSpec.xlsx'
-techSpec = createTechSpec(filePathFrom, filePathTo)
-techSpec
-
-
-# In[ ]:
-
-
-# TO RUN: EXAMPLE
-# GECKO RAW TO DATAFRAME READY FOR INITIAL DATA PROFILING (1 ROW PER JSON MSG)
-jsonData = geckoToJsonFormatter("exampleRawData.txt")
-df = createDataframe(jsonData)
-df
-

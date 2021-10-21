@@ -1,0 +1,6 @@
+json5 == 0.9.5
+jsonschema == 3.2.0
+pandas == 1.2.4
+requests == 2.25.1
+regex == 2021.4.4
+inflection == 0.5.1

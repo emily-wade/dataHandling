@@ -5,6 +5,7 @@ This repo is for data handling techniques used within SDP.
 - dataHandlingFunctions.py - contains all functions that can be used for all aspects of data handling.
 - flattenJson.py - contains functions to be used for flattening JSON data. Adapted from flatten-json Python package to make fit for purpose.
 - requirements.txt - all packages/modules required to run functions in dataHandlingFunctions.py file.
+- exampleRawData.txt - example of raw data from Gecko that can be used to test functions.
 
 ## Possible tasks:
 #### Raw data from Gecko -> Python DataFrame
@@ -22,7 +23,17 @@ This repo is for data handling techniques used within SDP.
 <i>WIP</i>
 
 ## Examples:
-<i>WIP</i>
+```
+# Example: Raw data from Gecko -> Python DataFrame
+jsonData = geckoToJsonFormatter("exampleRawData.txt")
+df = createDataframe(jsonData)
+print(df)
+```
 
-
-
+```
+# Example: Source sample data -> Tech Spec
+filePathFrom = "Braze-Push-Notifications.txt"
+filePathTo = "BrazePushNotifications-TechSpec.xlsx"
+techSpec = createTechSpec(filePathFrom, filePathTo)
+print(techSpec)
+```

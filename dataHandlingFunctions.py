@@ -26,7 +26,6 @@ def geckoToJsonFormatter(filePath):
     # read in data from raw
     with open(filePath, "r") as f:
         content = f.read()
-        print(content)
 
     # create array to append json objects to from raw data
     jsonData = []
@@ -198,7 +197,7 @@ techSpec
 
 # TO RUN: EXAMPLE
 # GECKO RAW TO DATAFRAME READY FOR INITIAL DATA PROFILING (1 ROW PER JSON MSG)
-jsonData = jsonFormatter("rawData.txt")
+jsonData = geckoToJsonFormatter("exampleRawData.txt")
 df = createDataframe(jsonData)
 df
 

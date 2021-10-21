@@ -1,0 +1,174 @@
+{
+  "events": [
+    {
+      "data": {
+        "custom_event_type": "other",
+        "event_name": "Push Notification Opens",
+        "custom_flags": {
+          
+        },
+        "timestamp_unixtime_ms": "1628121366000",
+        "event_id": "8899213059540775917",
+        "source_message_id": "80c8f7f2-fb84-4d97-9d38-623aedffcd31",
+        "custom_attributes": {
+          "canvas_id": "de5ced0e-c707-4bd4-b0c1-861a8cea3935",
+          "canvas_step_id": "7af48654-3acd-44c8-9430-d3bbd684a163",
+          "canvas_step_name": "Android",
+          "canvas_variation_id": "cb47ad17-0095-44c6-bd29-e2f5816176af",
+          "canvas_variation_name": "House All Seasons on Free",
+          "canvas_name": "080421 - Push - 623 - House All Seasons on Free",
+          "dispatch_id": "87e8bfa779505ca1777ae07390d4211a",
+          "app_id": "6a028153-054f-4ecf-8d89-060d8e98469b",
+          "mParticle Source Feed": "E2E Braze Android Input"
+        }
+      },
+      "event_type": "custom_event"
+    }
+  ],
+  "mpid": -6707264732589822834,
+  "timestamp_unixtime_ms": 1628121370388,
+  "batch_id": 183272519493023134,
+  "message_id": "c63240b1-7e77-47e7-a5e2-f4a2e6f52ea7",
+  "schema_version": 1,
+  "device_info": {
+    "android_uuid": "a8a9ea08548e8082",
+    "platform": "Android",
+    "device_model": "SM-G970U1",
+    "push_token": "e0A1C4ONSw2QmROlagclCi:APA91bHSjEF2xv0u7GAHpHdZmztXkFx79FMBGxcvg8Lyip3gf0pYSABi7WLphEev2VEOxph9BtvO2a97_DIxeCJ6FTG2l9X0w3tQjVejrqZO0J0Sx7jOajDu-4WVhZ8ou5hcJmCnxGgJ",
+    "android_advertising_id": "fb7b70ce-0886-465a-a888-7115a39dc11e",
+    "is_dst": false
+  },
+  "application_info": {
+    "package": "com.peacocktv.peacockandroid",
+    "os": "Android"
+  },
+  "user_attributes": {
+    "adSmartTrackingID": "53ca0a9c2630dfbb125a62c23cd9f8b71fca5edd",
+    "User Type": "SDH Registered User",
+    "other7": "AAAAFOrtrtEEnLjs7p/MsiXUXaHihWuMWCO+7clINnTmhtvpNJik56w/EIkwsnfo8pJCwv/VgCrpfUEqTgDfqDIIs8cq70Zajk9dVg==",
+    "emailmarketing": "true",
+    "pushnotifications": "true",
+    "User First Visit Date": "2021-02-15T03:09:56.118Z",
+    "User Product": "Peacock App",
+    "User Platform": "Android",
+    "User Peacock Account Tier": "Free",
+    "User MVPD": "Unauthenticated",
+    "User Peacock Registration Referrer": "Peacock Login",
+    "User Peacock Sign In Type": "Email",
+    "User Peacock Converted": "None",
+    "User Peacock Registration Date": "2021-02-15T03:11:06.830Z",
+    "ProductTier": "peacock_free",
+    "FreeTrial": "false",
+    "AutoRenewOff": "No",
+    "Last5_Device_Types": "Desktop,Mobile",
+    "9-box": "Recent Medium",
+    "Repertoire": "3",
+    "Last5_Device_Platform": "Android Mobile,Www",
+    "next_best_action": "title repertoire",
+    "dascs2": "2",
+    "dascs22": "0.11",
+    "dascs23": "0.09992",
+    "dascs1": "19.38",
+    "dascs25": "1",
+    "Marketing_Personas": "Catalog Series & Done",
+    "primary_device": "Android Mobile",
+    "dascs_movable_ink": "{\"userID\": \"a0b3af5848c3619ad37388a5126bb0b1cd54d081\",\"recommendations\":[{\"category\":\"personal_movie\",\"scores\": [{\"programmeUUID\":\"96b31dd4-6434-3df1-8c4d-b226327d63dd\",\"seriesID\": null, \"score\":0.253},{\"programmeUUID\":\"c35b0c2b-bcde-3d98-bbdc-5a3fba257f2b\",\"seriesID\": null, \"score\":0.197},{\"programmeUUID\":\"1a0cdaa1-6ad2-3342-96c6-9d3dc0ede036\",\"seriesID\": null, \"score\":0.197},{\"programmeUUID\":\"0aad0d45-6e0d-3b93-b8b9-7f18c5b278e7\",\"seriesID\": null, \"score\":0.194},{\"programmeUUID\":\"4c9aeeef-ec91-3613-9ce0-0ab59982e421\",\"seriesID\": null, \"score\":0.189},{\"programmeUUID\":\"fa8acd14-822d-3b33-b078-be1a99891fc8\",\"seriesID\": null, \"score\":0.188},{\"programmeUUID\":\"79703035-02ba-398f-9224-6a3d8780aa60\",\"seriesID\": null, \"score\":0.188},{\"programmeUUID\":\"6067aca2-04e8-32e2-ace7-ff461f13086b\",\"seriesID\": null, \"score\":0.188},{\"programmeUUID\":\"b3daad96-523e-39fb-b764-e4728aae89aa\",\"seriesID\": null, \"score\":0.187}]},{\"category\":\"personal_tv\",\"scores\": [{\"programmeUUID\":null,\"seriesID\": \"10eecb3c-a753-3be9-8848-093b748818d6\", \"score\":0.317},{\"programmeUUID\":null,\"seriesID\": \"b38c1512-72bc-398f-bb39-38c3e0c10069\", \"score\":0.278},{\"programmeUUID\":null,\"seriesID\": \"df11c257-179c-3e4d-a64e-097cde538485\", \"score\":0.267},{\"programmeUUID\":null,\"seriesID\": \"93afc399-fbc4-3f5a-8a7a-4b45c9365200\", \"score\":0.234},{\"programmeUUID\":null,\"seriesID\": \"8f831bfd-a930-3b92-8151-9d01d822f09c\", \"score\":0.228},{\"programmeUUID\":null,\"seriesID\": \"c233ee8b-fa85-376e-af7e-8973bf0a539f\", \"score\":0.224},{\"programmeUUID\":null,\"seriesID\": \"ac770a39-b0c5-390f-aadd-b0f47fba1150\", \"score\":0.223},{\"programmeUUID\":null,\"seriesID\": \"3dfdfa1d-88b5-3c6a-8b28-b3b894e25ce4\", \"score\":0.22},{\"programmeUUID\":null,\"seriesID\": \"d9e42594-ff9b-3705-8436-8c3a904e71c5\", \"score\":0.22}]},{\"category\":\"personal_top\",\"scores\": [{\"programmeUUID\":null,\"seriesID\": \"10eecb3c-a753-3be9-8848-093b748818d6\", \"score\":0.317},{\"programmeUUID\":null,\"seriesID\": \"b38c1512-72bc-398f-bb39-38c3e0c10069\", \"score\":0.278},{\"programmeUUID\":null,\"seriesID\": \"df11c257-179c-3e4d-a64e-097cde538485\", \"score\":0.267},{\"programmeUUID\":\"96b31dd4-6434-3df1-8c4d-b226327d63dd\",\"seriesID\": null, \"score\":0.253},{\"programmeUUID\":null,\"seriesID\": \"93afc399-fbc4-3f5a-8a7a-4b45c9365200\", \"score\":0.234},{\"programmeUUID\":null,\"seriesID\": \"8f831bfd-a930-3b92-8151-9d01d822f09c\", \"score\":0.228},{\"programmeUUID\":null,\"seriesID\": \"c233ee8b-fa85-376e-af7e-8973bf0a539f\", \"score\":0.224},{\"programmeUUID\":null,\"seriesID\": \"ac770a39-b0c5-390f-aadd-b0f47fba1150\", \"score\":0.223},{\"programmeUUID\":null,\"seriesID\": \"3dfdfa1d-88b5-3c6a-8b28-b3b894e25ce4\", \"score\":0.22}]},{\"category\":\"month_top\",\"scores\": [{\"programmeUUID\":null,\"seriesID\": \"b38c1512-72bc-398f-bb39-38c3e0c10069\", \"score\":0.278},{\"programmeUUID\":null,\"seriesID\": \"c233ee8b-fa85-376e-af7e-8973bf0a539f\", \"score\":0.224},{\"programmeUUID\":\"c35b0c2b-bcde-3d98-bbdc-5a3fba257f2b\",\"seriesID\": null, \"score\":0.197},{\"programmeUUID\":\"0aad0d45-6e0d-3b93-b8b9-7f18c5b278e7\",\"seriesID\": null, \"score\":0.194},{\"programmeUUID\":\"b3daad96-523e-39fb-b764-e4728aae89aa\",\"seriesID\": null, \"score\":0.187},{\"programmeUUID\":\"7053411c-e4c2-3afa-ad84-fd03c97197cf\",\"seriesID\": null, \"score\":0.185},{\"programmeUUID\":\"0a4fe99d-a4f5-3a4f-806a-bbc16ab913f5\",\"seriesID\": null, \"score\":0.182},{\"programmeUUID\":\"49ee12d3-2823-3b57-837b-829023c13fed\",\"seriesID\": null, \"score\":0.175},{\"programmeUUID\":\"7986db13-adfb-35e0-b5ab-8a6f4cc11297\",\"seriesID\": null, \"score\":0.175}]}]}",
+    "top_content_affinity": "chrisley knows best",
+    "dascs24": "0.46",
+    "dascs5": "0.45",
+    "dascs12": "0.55",
+    "dascs4": "0.48",
+    "dascs14": "0.64",
+    "dascs11": "0.54",
+    "dascs6": "0.48",
+    "dascs16": "0.64",
+    "dascs7": "0.43",
+    "dascs8": "0.44",
+    "dascs20": "0.51",
+    "dascs9": "0.47",
+    "dascs13": "0.67",
+    "dascs19": "0.61",
+    "dascs18": "0.43",
+    "dascs10": "0.42",
+    "dascs17": "0.64",
+    "dascs15": "0.65",
+    "Deeplinker_Specification": "Front Door",
+    "Voucher": "N/A",
+    "Voucher_Days_to_Expiration": "N/A",
+    "Voucher_Expiration_Date": "N/A",
+    "Promo_Unit_Increase_Segment": "BAU Control",
+    "Billing Cycle": "NULL",
+    "Payment Platform": "NULL",
+    "ios_tvos_tracking_enabled_flag": "false",
+    "dascs_movable_ink4": "{\"userID\": \"a0b3af5848c3619ad37388a5126bb0b1cd54d081\",\"recommendations\":[{\"category\":\"comedy_tv\",\"scores\": [{\"programmeUUID\":null,\"seriesID\": \"a63d70f5-4640-348c-acc2-7b5c02ea5a65\", \"score\":0.205},{\"programmeUUID\":null,\"seriesID\": \"b0004bb2-ee9d-334f-a0d5-2a4bac93c5d5\", \"score\":0.175},{\"programmeUUID\":null,\"seriesID\": \"a565636a-3f4e-3649-b0c6-725591a29ab4\", \"score\":0.174},{\"programmeUUID\":null,\"seriesID\": \"022ae9a1-d2ac-3238-b686-96c2a5ce26ba\", \"score\":0.174},{\"programmeUUID\":null,\"seriesID\": \"630a8cc2-abb5-3aee-b607-e08af336d641\", \"score\":0.168},{\"programmeUUID\":null,\"seriesID\": \"0a8ee8e7-c45d-3f4d-9005-d07e1c138e47\", \"score\":0.168},{\"programmeUUID\":null,\"seriesID\": \"84a19e80-b662-3d4b-abb9-83cd1d056712\", \"score\":0.166}]},{\"category\":\"popular_top\",\"scores\": [{\"programmeUUID\":null,\"seriesID\": \"b38c1512-72bc-398f-bb39-38c3e0c10069\", \"score\":0.278},{\"programmeUUID\":null,\"seriesID\": \"c233ee8b-fa85-376e-af7e-8973bf0a539f\", \"score\":0.224},{\"programmeUUID\":null,\"seriesID\": \"3dfdfa1d-88b5-3c6a-8b28-b3b894e25ce4\", \"score\":0.22},{\"programmeUUID\":null,\"seriesID\": \"51ecf496-caee-352f-bf8e-0997640edb7b\", \"score\":0.218},{\"programmeUUID\":null,\"seriesID\": \"dc5e5fdb-c563-31fb-8529-761362063a7e\", \"score\":0.214},{\"programmeUUID\":null,\"seriesID\": \"ac5ddc5a-3ee7-3819-a79e-3e27a3b91445\", \"score\":0.212},{\"programmeUUID\":null,\"seriesID\": \"04fe3fd2-29b8-3e83-8234-3382f72f039f\", \"score\":0.208},{\"programmeUUID\":null,\"seriesID\": \"a63d70f5-4640-348c-acc2-7b5c02ea5a65\", \"score\":0.205},{\"programmeUUID\":\"0aad0d45-6e0d-3b93-b8b9-7f18c5b278e7\",\"seriesID\": null, \"score\":0.194}]},{\"category\":\"drama_tv\",\"scores\": [{\"programmeUUID\":null,\"seriesID\": \"df11c257-179c-3e4d-a64e-097cde538485\", \"score\":0.267},{\"programmeUUID\":null,\"seriesID\": \"d9e42594-ff9b-3705-8436-8c3a904e71c5\", \"score\":0.22},{\"programmeUUID\":null,\"seriesID\": \"ac5ddc5a-3ee7-3819-a79e-3e27a3b91445\", \"score\":0.212},{\"programmeUUID\":null,\"seriesID\": \"51aab181-4250-3334-8c75-fe55da453fe9\", \"score\":0.179},{\"programmeUUID\":null,\"seriesID\": \"82d98690-9848-3893-83d3-bf937a0b87d6\", \"score\":0.175},{\"programmeUUID\":null,\"seriesID\": \"3b54c313-0fc3-388f-8eb3-193479d92884\", \"score\":0.168},{\"programmeUUID\":null,\"seriesID\": \"51187c3a-02b8-31f4-896d-a4c2958453b7\", \"score\":0.168},{\"programmeUUID\":null,\"seriesID\": \"0a8ee8e7-c45d-3f4d-9005-d07e1c138e47\", \"score\":0.168},{\"programmeUUID\":null,\"seriesID\": \"37678e03-0a66-3b52-9f5a-b560129efa13\", \"score\":0.168}]},{\"category\":\"thriller_movie\",\"scores\": [{\"programmeUUID\":\"1a0cdaa1-6ad2-3342-96c6-9d3dc0ede036\",\"seriesID\": null, \"score\":0.197},{\"programmeUUID\":\"985f203e-80ac-3e96-94e6-8c3726bee6d8\",\"seriesID\": null, \"score\":0.177},{\"programmeUUID\":\"dd060919-d3fe-3196-b816-a7b59fa2d473\",\"seriesID\": null, \"score\":0.173},{\"programmeUUID\":\"784f9e86-5f8a-35a7-b831-64b39c41a926\",\"seriesID\": null, \"score\":0.173},{\"programmeUUID\":\"413d07a9-70e2-3410-8ecd-5ff24d9ff4ce\",\"seriesID\": null, \"score\":0.166},{\"programmeUUID\":\"a6b242d0-b7e5-376f-8e6d-ece34d9744e0\",\"seriesID\": null, \"score\":0.166},{\"programmeUUID\":\"3495e812-8a35-3c1f-8fd1-5ae3df87548e\",\"seriesID\": null, \"score\":0.166},{\"programmeUUID\":\"903285d0-5972-3a23-88c2-0569d9ff3557\",\"seriesID\": null, \"score\":0.165},{\"programmeUUID\":\"9a32edd9-d34f-340c-9a59-4ac4f2e11a47\",\"seriesID\": null, \"score\":0.165}]}]}",
+    "dascs_movable_ink3": "{\"userID\": \"a0b3af5848c3619ad37388a5126bb0b1cd54d081\",\"recommendations\":[{\"category\":\"drama_movie\",\"scores\": [{\"programmeUUID\":\"96b31dd4-6434-3df1-8c4d-b226327d63dd\",\"seriesID\": null, \"score\":0.253},{\"programmeUUID\":\"1a0cdaa1-6ad2-3342-96c6-9d3dc0ede036\",\"seriesID\": null, \"score\":0.197},{\"programmeUUID\":\"fa8acd14-822d-3b33-b078-be1a99891fc8\",\"seriesID\": null, \"score\":0.188},{\"programmeUUID\":\"8afea067-579c-3737-9e70-a45bf5dafa93\",\"seriesID\": null, \"score\":0.186},{\"programmeUUID\":\"0b5587f6-a58e-3865-9208-906e23b58d24\",\"seriesID\": null, \"score\":0.183},{\"programmeUUID\":\"7986db13-adfb-35e0-b5ab-8a6f4cc11297\",\"seriesID\": null, \"score\":0.175},{\"programmeUUID\":\"784f9e86-5f8a-35a7-b831-64b39c41a926\",\"seriesID\": null, \"score\":0.173},{\"programmeUUID\":\"983c9af2-6bf9-3d81-94e0-0ef03a8885b4\",\"seriesID\": null, \"score\":0.171},{\"programmeUUID\":\"788f1ba3-3110-373b-9b43-7aaf6b742a5d\",\"seriesID\": null, \"score\":0.168}]},{\"category\":\"reality_tv\",\"scores\": [{\"programmeUUID\":null,\"seriesID\": \"10eecb3c-a753-3be9-8848-093b748818d6\", \"score\":0.317},{\"programmeUUID\":null,\"seriesID\": \"93afc399-fbc4-3f5a-8a7a-4b45c9365200\", \"score\":0.234},{\"programmeUUID\":null,\"seriesID\": \"ac770a39-b0c5-390f-aadd-b0f47fba1150\", \"score\":0.223},{\"programmeUUID\":null,\"seriesID\": \"51ecf496-caee-352f-bf8e-0997640edb7b\", \"score\":0.218},{\"programmeUUID\":null,\"seriesID\": \"dc5e5fdb-c563-31fb-8529-761362063a7e\", \"score\":0.214},{\"programmeUUID\":null,\"seriesID\": \"866e3391-95ea-3b2e-a95f-1043bc588a21\", \"score\":0.197},{\"programmeUUID\":null,\"seriesID\": \"645d1423-17b9-3e93-806d-b2e44b9eb872\", \"score\":0.195},{\"programmeUUID\":null,\"seriesID\": \"06793fcd-764d-3bef-aa26-5091f8148c75\", \"score\":0.191},{\"programmeUUID\":null,\"seriesID\": \"757f0474-6b4a-387e-a99d-19531759ea85\", \"score\":0.172}]},{\"category\":\"fortnight_tv\",\"scores\": [{\"programmeUUID\":null,\"seriesID\": \"c233ee8b-fa85-376e-af7e-8973bf0a539f\", \"score\":0.224}]},{\"category\":\"comedy_movie\",\"scores\": [{\"programmeUUID\":\"96b31dd4-6434-3df1-8c4d-b226327d63dd\",\"seriesID\": null, \"score\":0.253},{\"programmeUUID\":\"fa8acd14-822d-3b33-b078-be1a99891fc8\",\"seriesID\": null, \"score\":0.188},{\"programmeUUID\":\"8afea067-579c-3737-9e70-a45bf5dafa93\",\"seriesID\": null, \"score\":0.186},{\"programmeUUID\":\"36d80333-f0b7-3b1e-88b2-01588ee08f63\",\"seriesID\": null, \"score\":0.173},{\"programmeUUID\":\"983c9af2-6bf9-3d81-94e0-0ef03a8885b4\",\"seriesID\": null, \"score\":0.171},{\"programmeUUID\":\"d6e71557-f1b6-31ae-b68b-adc1be0c4a71\",\"seriesID\": null, \"score\":0.169},{\"programmeUUID\":\"4274d7e5-0a68-3ff3-b97b-6dee5667eb7f\",\"seriesID\": null, \"score\":0.169},{\"programmeUUID\":\"c9f0a6ec-4cb0-36b4-a867-fd2dd51d4bf5\",\"seriesID\": null, \"score\":0.168},{\"programmeUUID\":\"656a4c71-6629-38bf-95ef-dd3918aa6e40\",\"seriesID\": null, \"score\":0.167}]}]}",
+    "dascs_movable_ink5": "{\"userID\": \"a0b3af5848c3619ad37388a5126bb0b1cd54d081\",\"recommendations\":[{\"category\":\"popular_movie\",\"scores\": [{\"programmeUUID\":\"96b31dd4-6434-3df1-8c4d-b226327d63dd\",\"seriesID\": null, \"score\":0.253},{\"programmeUUID\":\"0aad0d45-6e0d-3b93-b8b9-7f18c5b278e7\",\"seriesID\": null, \"score\":0.194},{\"programmeUUID\":\"4c9aeeef-ec91-3613-9ce0-0ab59982e421\",\"seriesID\": null, \"score\":0.189},{\"programmeUUID\":\"fa8acd14-822d-3b33-b078-be1a99891fc8\",\"seriesID\": null, \"score\":0.188},{\"programmeUUID\":\"b3daad96-523e-39fb-b764-e4728aae89aa\",\"seriesID\": null, \"score\":0.187},{\"programmeUUID\":\"7053411c-e4c2-3afa-ad84-fd03c97197cf\",\"seriesID\": null, \"score\":0.185},{\"programmeUUID\":\"49ee12d3-2823-3b57-837b-829023c13fed\",\"seriesID\": null, \"score\":0.175},{\"programmeUUID\":\"7986db13-adfb-35e0-b5ab-8a6f4cc11297\",\"seriesID\": null, \"score\":0.175},{\"programmeUUID\":\"b705cb26-82d4-327a-aa77-4f832b83c166\",\"seriesID\": null, \"score\":0.174}]},{\"category\":\"popular_tv\",\"scores\": [{\"programmeUUID\":null,\"seriesID\": \"b38c1512-72bc-398f-bb39-38c3e0c10069\", \"score\":0.278},{\"programmeUUID\":null,\"seriesID\": \"8f831bfd-a930-3b92-8151-9d01d822f09c\", \"score\":0.228},{\"programmeUUID\":null,\"seriesID\": \"c233ee8b-fa85-376e-af7e-8973bf0a539f\", \"score\":0.224},{\"programmeUUID\":null,\"seriesID\": \"3dfdfa1d-88b5-3c6a-8b28-b3b894e25ce4\", \"score\":0.22},{\"programmeUUID\":null,\"seriesID\": \"51ecf496-caee-352f-bf8e-0997640edb7b\", \"score\":0.218},{\"programmeUUID\":null,\"seriesID\": \"dc5e5fdb-c563-31fb-8529-761362063a7e\", \"score\":0.214},{\"programmeUUID\":null,\"seriesID\": \"ac5ddc5a-3ee7-3819-a79e-3e27a3b91445\", \"score\":0.212},{\"programmeUUID\":null,\"seriesID\": \"04fe3fd2-29b8-3e83-8234-3382f72f039f\", \"score\":0.208},{\"programmeUUID\":null,\"seriesID\": \"a63d70f5-4640-348c-acc2-7b5c02ea5a65\", \"score\":0.205}]}]}",
+    "dascs_movable_ink2": "{\"userID\": \"a0b3af5848c3619ad37388a5126bb0b1cd54d081\",\"recommendations\":[{\"category\":\"month_tv\",\"scores\": [{\"programmeUUID\":null,\"seriesID\": \"b38c1512-72bc-398f-bb39-38c3e0c10069\", \"score\":0.278},{\"programmeUUID\":null,\"seriesID\": \"c233ee8b-fa85-376e-af7e-8973bf0a539f\", \"score\":0.224},{\"programmeUUID\":null,\"seriesID\": \"c9117872-66a7-3f45-be04-073075242478\", \"score\":0.167},{\"programmeUUID\":null,\"seriesID\": \"d685548f-9aee-3bbb-8209-b83e985a9a88\", \"score\":0.165},{\"programmeUUID\":null,\"seriesID\": \"8ebbd7af-2a55-3d8a-96a1-c65fd3cfe593\", \"score\":0.163}]},{\"category\":\"fortnight_top\",\"scores\": [{\"programmeUUID\":null,\"seriesID\": \"c233ee8b-fa85-376e-af7e-8973bf0a539f\", \"score\":0.224}]},{\"category\":\"month_movie\",\"scores\": [{\"programmeUUID\":\"c35b0c2b-bcde-3d98-bbdc-5a3fba257f2b\",\"seriesID\": null, \"score\":0.197},{\"programmeUUID\":\"0aad0d45-6e0d-3b93-b8b9-7f18c5b278e7\",\"seriesID\": null, \"score\":0.194},{\"programmeUUID\":\"b3daad96-523e-39fb-b764-e4728aae89aa\",\"seriesID\": null, \"score\":0.187},{\"programmeUUID\":\"7053411c-e4c2-3afa-ad84-fd03c97197cf\",\"seriesID\": null, \"score\":0.185},{\"programmeUUID\":\"0a4fe99d-a4f5-3a4f-806a-bbc16ab913f5\",\"seriesID\": null, \"score\":0.182},{\"programmeUUID\":\"49ee12d3-2823-3b57-837b-829023c13fed\",\"seriesID\": null, \"score\":0.175},{\"programmeUUID\":\"7986db13-adfb-35e0-b5ab-8a6f4cc11297\",\"seriesID\": null, \"score\":0.175},{\"programmeUUID\":\"b705cb26-82d4-327a-aa77-4f832b83c166\",\"seriesID\": null, \"score\":0.174},{\"programmeUUID\":\"b6551013-b084-341a-87e2-f5326f5f7403\",\"seriesID\": null, \"score\":0.173}]},{\"category\":\"fortnight_movie\",\"scores\": []}]}",
+    "Signup_Device": "android mobile",
+    "Lapse_Status_Change_Date": "2021-05-14",
+    "Churn_Status_Change_Date": "2021-05-14",
+    "Lapse_Status": "UnLapsed",
+    "Churn_Status": "Winback",
+    "Marketing_Holdout": "Paid DV360 Only Holdout-July2021",
+    "Device Repertoire": "3",
+    "MAA Status": "true",
+    "COPPA Title Viewed": "false",
+    "gross_add_date": "2021-02-15",
+    "COPPA Title First View Date": "2021-05-15",
+    "TowerHeist_Control_Groups": "No Control",
+    "COPPA Title Most Recent View Date": "2021-07-24",
+    "TowerHeist_Target_Groups": "Target A",
+    "wwe2": " ",
+    "wwe1": " ",
+    "wwe4": " ",
+    "wwe3": " "
+  },
+  "deleted_user_attributes": [
+    
+  ],
+  "user_identities": [
+    {
+      "identity_type": "email",
+      "identity": "judyerich@sbcglobal.net",
+      "timestamp_unixtime_ms": 1613376666004
+    },
+    {
+      "identity_type": "other_id_5",
+      "identity": "a0b3af5848c3619ad37388a5126bb0b1cd54d081",
+      "timestamp_unixtime_ms": 1613376666004
+    },
+    {
+      "identity_type": "other_id_6",
+      "identity": "judyerich@sbcglobal.net",
+      "timestamp_unixtime_ms": 1613376666004
+    },
+    {
+      "identity_type": "other_id_7",
+      "identity": "AAAAFOrtrtEEnLjs7p/MsiXUXaHihWuMWCO+7clINnTmhtvpNJik56w/EIkwsnfo8pJCwv/VgCrpfUEqTgDfqDIIs8cq70Zajk9dVg==",
+      "timestamp_unixtime_ms": 1613376666004
+    },
+    {
+      "identity_type": "other_id_8",
+      "identity": "bc3ef716bb246d91a19d3cf99017b8e6a6aa9b1f",
+      "timestamp_unixtime_ms": 1613376666004
+    },
+    {
+      "identity_type": "customer_id",
+      "identity": "UU7dTOz3ndCY9UfqHxbiEjiYuv2llihoe7Vxb9Ggzw4=",
+      "timestamp_unixtime_ms": 1614297702175
+    }
+  ],
+  "source_info": {
+    "channel": "partner",
+    "partner": "Braze"
+  },
+  "ip": "",
+  "system_notifications": [
+    
+  ],
+  "environment": "production",
+  "context": {
+    
+  },
+  "message_type": "events"
+}

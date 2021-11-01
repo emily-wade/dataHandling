@@ -21,8 +21,18 @@ This repo is for data handling techniques used within SDP.
 - Sample data is (as far as I'm aware) always in JSON format - using `createTechSpec()` will flatten the data, create a dataframe, store the source field names and then add target field names (by converting to camelCase where necessary) and identify source data types.
 - This is then exported to Excel, ready to be checked and completed by the analyst.
 
-## Usage:
-<i>WIP</i>
+## Setup:
+You will need to install python, pip and virtualenv if not already done: 
+1. Install Python: https://www.python.org/downloads/
+2. Install pip: Python3 usually comes with pip pre-installed but if `pip list` throws the error "pip command not found" then download get-pip.py from https://bootstrap.pypa.io/get-pip.py. Open cmd, navigate to the folder you downloaded the .py file to, and run `python3 get-pip.py`
+3. Continue with the steps below
+
+If you have python installed: 
+1. Clone this repo and navigate to it in cmd
+2. Install requirements.txt: run `pip install -r requirements.txt`
+3. You should now to be able to run the .py scripts in this repo. There are 2 ways to do this:  
+    a. Inside the dataHandlingFunctions.py you can run the entire script then at the bottom call the functions you wish to use  
+    b. Create a separate python file inside the same folder and run `from dataHandlingFunctions import <functionName>` to import the function you wish to use. Then you can call the functions in this file. 
 
 ## Examples:
 ```

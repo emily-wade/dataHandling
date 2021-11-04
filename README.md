@@ -29,7 +29,7 @@ You will need to install python, pip and virtualenv if not already done:
 
 If you have python installed: 
 1. Clone this repo and navigate to it in cmd
-2. Install requirements.txt: run `pip install -r requirements.txt`
+2. Install requirements.txt: run `python -m pip install -r requirements.txt`
 3. You should now to be able to run the .py scripts in this repo. There are 2 ways to do this:  
     a. Inside the dataHandlingFunctions.py you can run the entire script then at the bottom call the functions you wish to use  
     b. Create a separate python file inside the same folder and run `from dataHandlingFunctions import <functionName>` to import the function you wish to use. Then you can call the functions in this file. 
@@ -37,15 +37,15 @@ If you have python installed:
 ## Examples:
 ```
 # Example: Raw data from Gecko -> Python DataFrame
-jsonData = geckoToJsonFormatter("exampleRawData.txt")
+jsonData = geckoToJsonFormatter(r"exampleRawData.txt")
 df = createDataframe(jsonData)
 print(df)
 ```
 
 ```
 # Example: Source sample data -> Tech Spec
-filePathFrom = "Braze-Push-Notifications.txt"
-filePathTo = "BrazePushNotifications-TechSpec.xlsx"
+filePathFrom = r"Braze-Push-Notifications.txt"
+filePathTo = r"BrazePushNotifications-TechSpec.xlsx"
 techSpec = createTechSpec(filePathFrom, filePathTo)
 print(techSpec)
 ```

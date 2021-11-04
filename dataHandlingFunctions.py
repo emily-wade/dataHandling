@@ -4,7 +4,6 @@ import pandas as pd
 from collections import defaultdict
 import re
 from inflection import camelize
-from flattenJson import flatten
 
 def geckoToJsonFormatter(filePath):
     """
@@ -44,7 +43,7 @@ def jsonFlattener(filePath):
         content = f.read()
         data = json.loads('[{}]'.format(content))
         
-    # flatten using adapted version of flatten-json package
+    # flattens JSON
     jsonFlattened = [flatten(d) for d in data]
 
     # return array of json objects
@@ -153,3 +152,75 @@ def createTechSpec(filePathFrom, filePathTo):
     techSpec.to_excel(filePathTo, index=False)
     
     return techSpec
+
+def constructKey(previousKey, separator, newKey):
+    """
+    Purpose: creates concatenated key (previous key + separator + new key, or new key)
+    Input: previousKey (object key or concatenated object key)
+           separator (string separator between old and new keys eg. "/")
+           newKey (new key for an object)
+    Output: previousKey+separator+newKey OR newKey (concatenated key)
+    """
+    if previousKey:
+        return f"{previousKey}{separator}{newKey}"
+    else:
+        return newKey
+
+def flatten(
+    nestedDict,
+    separator="/",
+):
+    """
+    Purpose: flattens a nested JSON dictionary
+    Inputs: nestedDict (dictionary to flatten)
+            separator (string to separate dictionary keys by)
+    Outputs: flattenedDict (flattened dictionary)
+    """
+    if len(nestedDict) == 0:
+        return {}
+
+    flattenedDict = dict()
+
+    def _flatten(object, key):
+        """
+        Purpose: if possible, iterate again and flatten further, 
+                 otherwise append to flattenedDict
+        Inputs: object (the object to flatten eg dict, list, str etc) 
+                key (concatenated key for object)
+        Outputs: none (appends to flattenedDict)
+        """
+        if not object:
+            flattenedDict[key] = object
+
+        elif isinstance(object, dict):
+            for objectKey in object:
+                if key: 
+                    _flatten(
+                        object[objectKey], 
+                        constructKey(
+                            key,
+                            separator,
+                            objectKey
+                        )
+                    )
+        
+        elif isinstance(object, (list, set, tuple)):
+            for listItem in object:
+                for objectKey in listItem:
+                    if key: 
+                        _flatten(
+                            listItem[objectKey], 
+                            constructKey(
+                                key,
+                                separator,
+                                objectKey
+                            )
+                        )
+        
+        else:
+            flattenedDict[key] = object
+
+    _flatten(nestedDict, None)
+    
+    return flattenedDict
+
